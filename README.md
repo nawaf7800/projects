@@ -1,1 +1,1 @@
-"My Projects" 
+My Academic and Personal Projects
