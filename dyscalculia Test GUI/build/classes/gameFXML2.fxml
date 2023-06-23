@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="663.0" prefWidth="1016.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameFXMLController2">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="79.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="857.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="239.0" layoutX="81.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="422.0" />
+      <Button fx:id="t11" layoutX="117.0" layoutY="327.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="1">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="88.0" layoutY="80.0" text="Score:" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" layoutX="172.0" layoutY="80.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="269.0" layoutY="80.0" text="Mistakes:" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="miss" layoutX="373.0" layoutY="80.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ToolBar layoutY="6.0" prefHeight="28.0" prefWidth="1016.0">
+         <items>
+            <Label text="Learning Disability">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="comboBox" onAction="#ChangeGame" prefHeight="25.0" prefWidth="209.0" />
+         </items>
+      </ToolBar>
+      <ImageView fx:id="p11" fitHeight="50.0" fitWidth="67.0" layoutX="88.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p12" fitHeight="50.0" fitWidth="67.0" layoutX="167.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p13" fitHeight="50.0" fitWidth="67.0" layoutX="245.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p14" fitHeight="50.0" fitWidth="67.0" layoutX="324.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p16" fitHeight="50.0" fitWidth="67.0" layoutX="87.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p17" fitHeight="50.0" fitWidth="67.0" layoutX="166.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p18" fitHeight="50.0" fitWidth="67.0" layoutX="244.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p19" fitHeight="50.0" fitWidth="67.0" layoutX="323.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p15" fitHeight="50.0" fitWidth="67.0" layoutX="403.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p10" fitHeight="50.0" fitWidth="67.0" layoutX="402.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="t13" layoutX="307.0" layoutY="327.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="3">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="t12" layoutX="214.0" layoutY="327.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="2">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="t14" layoutX="398.0" layoutY="327.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="4">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="239.0" layoutX="515.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="422.0" />
+      <Button fx:id="t21" layoutX="551.0" layoutY="327.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="1">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="p21" fitHeight="50.0" fitWidth="67.0" layoutX="522.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p22" fitHeight="50.0" fitWidth="67.0" layoutX="601.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p23" fitHeight="50.0" fitWidth="67.0" layoutX="679.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p24" fitHeight="50.0" fitWidth="67.0" layoutX="758.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p26" fitHeight="50.0" fitWidth="67.0" layoutX="521.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p27" fitHeight="50.0" fitWidth="67.0" layoutX="600.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p28" fitHeight="50.0" fitWidth="67.0" layoutX="678.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p29" fitHeight="50.0" fitWidth="67.0" layoutX="757.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p25" fitHeight="50.0" fitWidth="67.0" layoutX="837.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p20" fitHeight="50.0" fitWidth="67.0" layoutX="836.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="t23" layoutX="741.0" layoutY="327.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="3">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="t22" layoutX="648.0" layoutY="327.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="2">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="t24" layoutX="832.0" layoutY="327.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="4">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="239.0" layoutX="81.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="422.0" />
+      <Button fx:id="t31" layoutX="117.0" layoutY="576.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="1">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="p31" fitHeight="50.0" fitWidth="67.0" layoutX="88.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p32" fitHeight="50.0" fitWidth="67.0" layoutX="167.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p33" fitHeight="50.0" fitWidth="67.0" layoutX="245.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p34" fitHeight="50.0" fitWidth="67.0" layoutX="324.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p36" fitHeight="50.0" fitWidth="67.0" layoutX="87.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p37" fitHeight="50.0" fitWidth="67.0" layoutX="166.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p38" fitHeight="50.0" fitWidth="67.0" layoutX="244.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p39" fitHeight="50.0" fitWidth="67.0" layoutX="323.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p35" fitHeight="50.0" fitWidth="67.0" layoutX="403.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p30" fitHeight="50.0" fitWidth="67.0" layoutX="402.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="t33" layoutX="307.0" layoutY="576.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="3">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="t32" layoutX="214.0" layoutY="576.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="2">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="t34" layoutX="398.0" layoutY="576.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="4">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="239.0" layoutX="515.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="422.0" />
+      <Button fx:id="t41" layoutX="551.0" layoutY="576.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="1">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="p41" fitHeight="50.0" fitWidth="67.0" layoutX="522.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p42" fitHeight="50.0" fitWidth="67.0" layoutX="601.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p43" fitHeight="50.0" fitWidth="67.0" layoutX="679.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p44" fitHeight="50.0" fitWidth="67.0" layoutX="758.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p46" fitHeight="50.0" fitWidth="67.0" layoutX="521.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p47" fitHeight="50.0" fitWidth="67.0" layoutX="600.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p48" fitHeight="50.0" fitWidth="67.0" layoutX="678.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p49" fitHeight="50.0" fitWidth="67.0" layoutX="757.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p45" fitHeight="50.0" fitWidth="67.0" layoutX="837.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="p40" fitHeight="50.0" fitWidth="67.0" layoutX="836.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="t43" layoutX="741.0" layoutY="576.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="3">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="t42" layoutX="648.0" layoutY="576.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="2">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="t44" layoutX="832.0" layoutY="576.0" mnemonicParsing="false" onAction="#t1c" prefHeight="50.0" prefWidth="77.0" text="4">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
